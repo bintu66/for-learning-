@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int decTobin(int decnum){
+int deTobin(int decnum){
     int ans=0; int pow=1;
 
     while (decnum >0)
@@ -17,10 +17,10 @@ int decTobin(int decnum){
 
 int main(){
     int n;
-    cout<<"inter n:";
+    cout<<" n:";
     cin>>n;
 
-    cout<< decTobin(n)<<endl;
+    cout<< deTobin(n)<<endl;
     
 return 0;
 }
